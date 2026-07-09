@@ -1,42 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>RECT92 Denver 2026</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-      background-color: #111827;
-      /* Prevents mobile browsers from doing awkward rubber-band scrolling on the outer frame */
-      position: fixed; 
-    }
-    .iframe-container {
-      position: absolute;
-      top: -15px; /* Slices out the Google banner */
-      left: 0;
-      width: 100%;
-      height: calc(100% + 50px);
-      overflow: hidden;
-    }
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      /* Optimizes scrolling behaviors on iOS and Android devices */
-      overflow-y: auto;
-      -webkit-overflow-scrolling: touch;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Reunion Portal</title>
+    <style>
+        /* This removes all blank margins and makes the page fill the entire screen */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Prevents weird double scrollbars */
+        }
+        
+        /* This forces the Google Doc to take up 100% of the view */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-  <div class="iframe-container">
+
     <iframe src="https://script.google.com/macros/s/AKfycbyeiysiVWD2eseNA03wxFj0z1TuWRmODNUDzhD_Mel5XrtXR2K7G0v1y2G2xoc42oxB/exec"></iframe>
-  </div>
+
 </body>
 </html>
